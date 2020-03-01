@@ -14,7 +14,7 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 - Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to naming the wrong pilot as the most accomplished pilot on line 27
 - Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to the use of the wrong character's picture in the image that is sourced in the code chunk named `top-pilot` (it should be a picture of Han Solo).
 
-4. Add comments and suggested changes using the `+` sign beside the line numbers (the first time you do this will trigger the start of your code review. 
+4. Add comments and suggested changes using the `+` sign beside the line numbers (the first time you do this will trigger the start of your code review. Need help? See [GitHub's how to on reviewing proposed changes in a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request).
 
 5. After you have made all the comments and suggested changes, then add a general comment for the code review, select "Request Changes" and submit your code review.
 
