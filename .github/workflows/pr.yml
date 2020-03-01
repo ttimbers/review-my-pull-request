@@ -1,0 +1,22 @@
+on:
+  push:
+    branches:
+      - pr
+jobs:
+  updateAuthors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: get file
+        run: |
+          curl -o star-wars.Rmd https://raw.githubusercontent.com/ttimbers/pr-source-file/master/star-wars.Rmd
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Report most accomplished pilots
+          title: Report most accomplished pilots
+          body: Code writtent to calculate top 5 accomplished pilots, and a image showing the top pilot."
+          branch: master
