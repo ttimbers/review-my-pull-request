@@ -11,8 +11,8 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 3. Click on the Pull Requests tab of your copy of the repository, click on the pull request titled "Report most accomplished pilots", and then click on "Files Changed". Next click on the `star-wars.Rmd` file. Review the file and observe the following problems with the R Markdown report that was submitted via the pull request:
 - Reasoning of the sentence on line 15
 - Incompatibility with the sentence on line 15 with the code in the code chunk named `table-of-most-accomplished-pilots`
-- Incorrect code in code chunk named `table-of-most-accomplished-pilots` leads to naming the wrong pilot as the most accomplished pilot on line 27
-- Incorrect code in code chunk named `table-of-most-accomplished-pilots` leads to the use of the wrong character's picture in the image that is sourced in the code chunk named `top-pilot` (it should be a picture of Han Solo).
+- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to naming the wrong pilot as the most accomplished pilot on line 27
+- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to the use of the wrong character's picture in the image that is sourced in the code chunk named `top-pilot` (it should be a picture of Han Solo).
 
 4. Add comments and suggested changes using the `+` sign beside the line numbers (the first time you do this will trigger the start of your code review. 
 
