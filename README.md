@@ -20,6 +20,6 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 
 6. Practice accepting code changes that you provided as suggestions by revisiting the Pull Requests tab of your copy of the repository and clicking on the pull request titled "Report most accomplished pilots". Scroll through the pull request comments and find the code suggestions. Then click on the "Commit suggestion button" for each suggestion. 
 
-7. Click on the `...` beside the note that a request for changes was requested. Then click "Approve changes".
+7. Click on the "Show all reviewers" link beside the red "Changes requested"" text. Then click on the `...` beside the reviewer and click "Approve changes".
 
 8. Finally click on the green buttons ("Merge Pull Request" & "Confirm merge") to merge the pull request.
