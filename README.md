@@ -11,8 +11,8 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 3. Click on the Pull Requests tab of your copy of the repository, click on the pull request titled "Report most accomplished pilots", and then click on "Files Changed". Next click on the `star-wars.Rmd` file. Review the file and observe the following problems with the R Markdown report that was submitted via the pull request:
 - Reasoning of the sentence on line 15
 - Incompatibility with the sentence on line 15 with the code in the code chunk named `table-of-most-accomplished-pilots`
-- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to naming the wrong pilot as the most accomplished pilot on line 27
-- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (grouping by `film` instead of `starships`) leads to the use of the wrong character's picture in the image that is sourced in the code chunk named `top-pilot` (it should be a picture of Han Solo).
+- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (unested `film` instead of `starships`) leads to naming the wrong pilot as the most accomplished pilot on line 27
+- Incorrect code in code chunk named `table-of-most-accomplished-pilots` (unested `film` instead of `starships`) leads to the use of the wrong character's picture in the image that is sourced in the code chunk named `top-pilot` (it should be a picture of Han Solo, you could use this URL for example: <https://i1.wp.com/twinfinite.net/wp-content/uploads/2015/11/harrison-ford-Mill_3222044i.jpg>).
 
 4. Add comments and suggested changes using the `+` sign beside the line numbers (the first time you do this will trigger the start of your code review. Need help? See [GitHub's how to on reviewing proposed changes in a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/reviewing-proposed-changes-in-a-pull-request).
 
