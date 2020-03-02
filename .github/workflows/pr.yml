@@ -3,7 +3,7 @@ on:
     branches:
       - pr
 jobs:
-  updateAuthors:
+  createPullRequest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -12,7 +12,7 @@ jobs:
       - name: get file
         run: |
           curl -o star-wars.Rmd https://raw.githubusercontent.com/ttimbers/pr-source-file/master/star-wars.Rmd
-          curl -o star-wars.Rmd https://raw.githubusercontent.com/ttimbers/pr-source-file/master/star-wars.md
+          curl -o star-wars.md https://raw.githubusercontent.com/ttimbers/pr-source-file/master/star-wars.md
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v2
         with:
