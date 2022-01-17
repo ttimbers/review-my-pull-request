@@ -4,7 +4,7 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 
 # Usage
 
-1. **Import** this repository to obtain a copy of it for yourself (do not fork it).
+1. Click the green "**Use this template**" button in this repository to obtain a copy of it for yourself (do not fork it).
 
 2. Create a remote branch named `pr` (this will use GitHub Actions to create a pull request for you to review in this repository).
 
