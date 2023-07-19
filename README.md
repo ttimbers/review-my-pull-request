@@ -6,7 +6,7 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 
 1. Click the green "**Use this template**" button in this repository to obtain a copy of it for yourself (do not fork it).
 
-2. Go to Repository Settings > Actions > General > under "Workflow permissions" make sure read and write permissions are enabled and also GitHub Actions is able to create and approve Pull Requests
+2. Go to Repository Settings > Actions > General > under "Workflow permissions" make sure read and write permissions are enabled and also GitHub Actions is able to create and approve Pull Requests. Under "Actions permissions" select "Allow all actions and reuseable workflows".
 
 3. Create a remote branch named `pr` (this will use GitHub Actions to create a pull request for you to review in this repository).
 
