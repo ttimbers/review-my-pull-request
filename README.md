@@ -6,6 +6,10 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 
 1. Click the green "**Use this template**" button in this repository to obtain a copy of it for yourself (do not fork it).
 
+2. Go to Repository Settings > Actions > General > under "Workflow permissions" make sure read and write permissions are enabled and also GitHub Actions is able to create and approve Pull Requests. Under "Actions permissions" select "Allow all actions and reuseable workflows". It should look like this:
+
+    <img src="gha-general-settings.png" width=500>
+
 2. Create a remote branch named `pr` (this will use GitHub Actions to create a pull request for you to review in this repository).
 
 3. Click on the Pull Requests tab of your copy of the repository, click on the pull request titled "Report most accomplished pilots", and then click on "Files Changed". Next click on the `star-wars.Rmd` file. Review the file and observe the following problems with the R Markdown report that was submitted via the pull request:
