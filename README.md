@@ -10,7 +10,7 @@ A GitHub repository that serves the purpose of learning how use GitHub's code re
 
     <img src="gha-general-settings.png" width=500>
 
-2. Create a remote branch named `pr` (this will use GitHub Actions to create a pull request for you to review in this repository).
+2. Click on the Actions tab, and then click on the workflow `.github/workflows/pr.yml`. You then should see a "Run workflow" button with a drop down menu, from that menu select "Run workflow".
 
 3. Click on the Pull Requests tab of your copy of the repository, click on the pull request titled "Report most accomplished pilots", and then click on "Files Changed". Next click on the `star-wars.Rmd` file. Review the file and observe the following problems with the R Markdown report that was submitted via the pull request:
 - Reasoning of the sentence on line 15
