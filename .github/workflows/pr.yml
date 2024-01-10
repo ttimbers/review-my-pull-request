@@ -1,9 +1,9 @@
 on:
-  push:
-    branches:
-      - pr
+  workflow_dispatch:
+
 jobs:
   createPullRequest:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
